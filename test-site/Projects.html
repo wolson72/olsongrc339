@@ -1,0 +1,81 @@
+<!-- starter html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+   
+   <!--fill these out -->
+    <title>title</title>
+  <meta name="author" content="name">
+  <meta name="description" content="description here">
+  
+   <!--optional -->
+  <meta name="keywords" content="keywords,here">
+
+  <!-- Place favicon.ico in the root directory -->
+  <link rel="shortcut icon" href="favicon.ico" type="image/vnd.microsoft.icon">
+  
+   <!--if using Google fonts link this to source or Adobe fonts -->
+   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Work+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  
+  <!--link to your css here -->
+  <link rel="stylesheet" href="css/starter2.css" type="text/css">
+  </head>
+  
+  <!-- body -->
+  <body>
+    <body>
+      <nav class="navbar">
+        <span class="hamburger" id="jshamburger">
+          <i class="fas fa-bars"></i></span>
+        <a href="#" class="logo">Will's Site</a>
+        <ul class="mainnav" id="jsmenu">
+            <li><a href="index.html" class="navlinks">Home</a></li>
+            <li><a href="projects.html" class="navlinks">Moodboard</a></li>
+            <li><a href="#" class="navlinks">Contact Me</a></li>
+            </li>
+        </ul>
+      </nav>
+      
+  <section class="title">
+    <h1>My Aesthetic Inspiration this Quarantine</h1>
+  </section>
+
+  <section>
+    <div class="moodboard">
+        <div class="big"><img src="images/layout.jpg" alt="graphic design layout" /></div>
+        <div class="big"> <img src="images/chairs.jpg" alt="chairs" /></div>
+        <div class="big"><img src="images/modern.jpg" alt="architecture" /></div>
+        <div class="big"><img src="images/aestheticbench.png" alt="graphic design layout" /></div>
+        <div class="big"> <img src="images/car.jpg" alt="chairs" /></div>
+        <div class="big"><img src="images/bench.jpg" alt="architecture" /></div>
+        <div class="big"><img src="images/concret4.jpg" alt="graphic design layout" /></div>
+        <div class="big"> <img src="images/landscape.jpg" alt="chairs" /></div>
+        <div class="big"><img src="images/loft.jpg" alt="graphic design layout" /></div>
+        <div class="big"> <img src="images/plants.png" alt="chairs" /></div>
+        <div class="big"> <img src="images/woodroom.jpg" alt="chairs" /></div>
+        <div class="big"> <img src="images/poolhouse.jpg" alt="chairs" /></div>
+        <div class="big"> <img src="images/whiteroom.jpg" alt="chairs" /></div>
+        <div class="big"> <img src="images/coolchair.jpg" alt="chairs" /></div>
+        <div class="big"> <img src="images/window.jpg" alt="chairs" /></div>
+    </div>
+    </section>
+
+</body>
+</html>
+   
+
+<!-- all javascript at the bottom of the body -->
+ <script src="js/scripts.js">
+let mainNav = document.getElementById('jsmenu');
+let navBarToggle = document.getElementById('jshamburger');
+
+navBarToggle.addEventListener('click', function () {
+    
+    mainNav.classList.toggle('active');
+});
+</script>
+</body>
+
+</html>
